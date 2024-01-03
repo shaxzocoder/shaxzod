@@ -19,10 +19,6 @@
 }
 @media (width < 380px) {
     .qa {
-        padding: 0 1rem;
-        & p {
-            font-size: .8rem;
-        }
+        padding: 0;
     }
-
 }

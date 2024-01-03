@@ -6,7 +6,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 3rem;
-  background-color: var(--secondary-color);
+  position: sticky;
+  border-bottom: 1px solid var(--unique);
+  backdrop-filter: blur(20px);
+  top: 0;
+  left: 0;
 }
 
 .link__wrp {
@@ -19,11 +23,11 @@ nav {
   text-decoration: none;
   color: var(--white);
 }
-@media (width < 380px ) {
+@media (width < 380px) {
   .link__wrp .link__itself {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-  .nav{
+  .nav {
     padding: 1rem 2rem;
   }
 }

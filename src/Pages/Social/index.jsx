@@ -19,7 +19,7 @@ const socialLink = [
 
 const Social = () => {
   return (
-    <div>Social</div>
+    <div>No Socialw</div>
   )
 }
 

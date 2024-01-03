@@ -1,0 +1,18 @@
+.ahref__wrp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    & a {
+        padding: 1rem 2rem;
+        width: 30%;
+        border-radius: 30px;
+        background-color: var(--unique);
+        color: var( --secondary-color) ;
+        text-decoration: none;
+    }
+}
+@media (width < 440px) {
+    .ahref__wrp > a {
+        padding: 1rem;
+    }
+}

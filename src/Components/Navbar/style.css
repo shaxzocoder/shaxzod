@@ -1,0 +1,29 @@
+.foto {
+  border-radius: 50%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: var(--secondary-color);
+}
+
+.link__wrp {
+  color: var(--white);
+  display: flex;
+  gap: 1.5rem;
+}
+.link__itself {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--white);
+}
+@media (width < 380px ) {
+  .link__wrp .link__itself {
+    font-size: .8rem;
+  }
+  .nav{
+    padding: 1rem 2rem;
+  }
+}

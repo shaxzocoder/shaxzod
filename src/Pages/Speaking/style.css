@@ -27,7 +27,7 @@
 .qa > p {
     max-width: 100%;
 }
-@media (width < 380px) {
+@media (width < 480px) {
     .qa , .two{
         padding: 0;
     }

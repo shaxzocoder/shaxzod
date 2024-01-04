@@ -23,7 +23,7 @@ nav {
   text-decoration: none;
   color: var(--white);
 }
-@media (width < 380px) {
+@media (width < 480px) {
   .link__wrp .link__itself {
     font-size: 0.8rem;
   }

@@ -36,19 +36,16 @@
 :nth-child(2 of .huge__title) {
     &:hover {
         --first-color: #7e2553;
-        -webkit-text-stroke-color: var(--first-color);
     }
 }
 :nth-child(3 of .huge__title) {
     &:hover {
         --first-color: #7fc7d9;
-        -webkit-text-stroke-color: var(--first-color);
     }
 }
 :nth-child(4 of .huge__title) {
     &:hover {
         --first-color: #bf3131;
-        -webkit-text-stroke-color: var(--first-color);
     }
 }
 .filled {

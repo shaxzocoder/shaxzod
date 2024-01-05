@@ -1,48 +1,68 @@
-:root{
-    --primary-color:#0F0F0F;
-    --secondary-color:#31304D;
-    --third-color:#005B41;
-    --success:#008170;
-    --answer:#BF3131;
-    --unique:#F0ECE5;
-    --white:#FBF9F1;
+@font-face {
+  font-family: "Stapel bold";
+  src: url(./assets/Fonts/Stapel/Stapel_Bold.otf);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --primary-color: #0f0f0f;
+  --secondary-color: #31304d;
+  --third-color: #005b41;
+  --success: #008170;
+  --answer: #bf3131;
+  --unique: #f0ece5;
+  --unique-second: #4c4b49;
+  --white: #fbf9f1;
+  --smooth-transition: 350ms;
+  --fast-transition: 100ms;
+  --font-sb: "Stapel bold";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
-    scroll-padding: 6rem;
+  scroll-behavior: smooth;
+  scroll-padding: 6rem;
 }
 body {
-   background-color: var(--primary-color);
-    color: var(--white);
-    font-family: system-ui, sans-serif ;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-family: system-ui, sans-serif;
 }
 .main {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 }
 .main > .nav {
-    width: 100%;
+  width: 100%;
 }
 .main > *:not(.nav) {
-    width: 80vw;
-    padding: 2rem 0;
+  width: 80vw;
+  padding: 2rem 0;
 }
 
-
-h1{
-    font-size: 2rem;
+h1 {
+  font-size: 2rem;
 }
 
 code {
-    padding: 5px;
-    border-radius: 20px;
-    background: var(--success);
+  padding: 5px;
+  border-radius: 20px;
+  background: var(--success);
 }
-.answer{
-    background-color: var(--answer);
+.answer {
+  background: var(--answer);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--unique-second);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--unique);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--white);
 }

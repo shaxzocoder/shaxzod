@@ -1,23 +1,23 @@
 .home > * {
-  width: 50%;
+  /* width: 50%; */
 }
 .home {
   display: flex;
+  flex-direction: column;
 }
 
+.home-inside{
+    outline: 1px snow solid;
+    width: 100%;
+    display: flex;
+}
 .svg  {
     display: flex;
     align-items: center;
     justify-content: center;
   & .komputer {
-    width: 90%;
+    width: 100%;
   }
-}
-@media (width < 1024px) {
-    .huge__title{
-        font-size: 3rem;
-        color: aqua ;
-    }
 }
 
 .huge__title {
@@ -55,6 +55,12 @@
     }
 }
 
+@media (width < 1024px) {
+    .huge__title{
+        font-size: 3rem;
+        color: aqua ;
+    }
+}
 @media (width < 1024px) {
     .huge__title{
         

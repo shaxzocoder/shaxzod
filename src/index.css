@@ -36,7 +36,7 @@ body {
 .main > .nav {
   width: 100%;
 }
-.main > *:not(.nav) {
+.main > *:not(.nav , .home) {
   width: 80vw;
   padding: 2rem 0;
 }

@@ -6,16 +6,19 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <header className="home">
-      <h2 className="description">
-        <code className="custom"></code>I am just a
-        <code className="custom"></code>
-      </h2>
-      <TypingAnimation />
-      <img src={backgroundSvg} alt="" />
-      <Link to="/social" className="social__btn oq">
-       Hold this
-      </Link>
+    <header className="home__wrp">
+    <div className="home">
+        <h2 className="description">
+          <code className="custom"></code>I am just a
+          <code className="custom"></code>
+        </h2>
+        <TypingAnimation />
+        <img src={backgroundSvg} alt="" />
+        <Link to="/social" className="social__btn oq">
+         Hold this
+        </Link>
+    </div>
+    
     </header>
   );
 };

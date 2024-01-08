@@ -1,3 +1,6 @@
+.home__wrp{
+  width: 100%;
+}
 .home {
   display: flex;
   flex-direction: column;

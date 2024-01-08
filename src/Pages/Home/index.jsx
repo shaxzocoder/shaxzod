@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import TypingAnimation from "../../Components/TypingAnimation";
 import { backgroundSvg } from "../../assets";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
       </h2>
       <TypingAnimation />
       <img src={backgroundSvg} alt="" />
-      <button className="social__btn">Hold this</button>
+      <Link to="/social" className="social__btn oq">
+       Hold this
+      </Link>
     </header>
   );
 };

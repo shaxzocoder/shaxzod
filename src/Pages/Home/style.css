@@ -21,6 +21,7 @@
     font-weight: 800;
     & p {
       color: purple;
+      animation: changeColor  infinite 30s ease-out;
     }
   }
   & > p {
@@ -76,7 +77,12 @@ code.custom {
 .description {
   display: flex;
 }
-
+@keyframes changeColor {
+  25%{color: #198E55;}
+  50%{color: #D9BE72;}
+  75%{color: #22824F;}
+  100%{color: #FF50D4;}
+}
 @media (width < 1278px) {
   .home{
     width: 60%;

@@ -77,12 +77,39 @@ code.custom {
   display: flex;
 }
 
+@media (width < 1278px) {
+  .home{
+    width: 60%;
+    padding: 0;
+  }
+}
+@media (width < 1024px) {
+  .home{
+    width: 70%;
+    padding: 0;
+  }
+}
+@media (width < 820px) {
+  .home{
+    width: 80%;
+    padding: 0;
+    & .description{
+      font-size: 3rem;
+    }
+    & > p{
+      width: 70%;
+    }
+  }
+}
 
 @media (width < 580px) {
   .home {
-    padding: 1rem;
     & .description{
-      font-size: 2rem;
+      font-size: 2.3rem;
+    }
+    & > p {
+      width: 90%;
+      font-size: smaller;
     }
     img {
       width: 100%;
@@ -91,11 +118,28 @@ code.custom {
       width: 140px;
     height: 45px;
     }
+    & .typinganimation__wrp > h1{
+      font-size: 1.5rem;
+    }
   }
   
 }
-@media (width < 350px) {
+@media (width < 410px){
   .home {
-    padding: .6rem;
+    & .description{
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (width < 380px) {
+  .home {
+    & .description{
+      font-size: 2rem;
+    }
+    width: 90%;
+    & > p{
+      width: 85%;
+    }
   }
 }

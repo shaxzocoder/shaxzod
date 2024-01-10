@@ -14,8 +14,8 @@ const Navbar = () => {
         <Link className="link__itself" to="/speaking">
           speaking
         </Link>
-        <Link className="link__itself" to="/social">
-          social
+        <Link className="link__itself" to="/links">
+          Links
         </Link>
         <Link className="link__itself" to="/playlists">
           Playlist

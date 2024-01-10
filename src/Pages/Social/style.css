@@ -1,0 +1,10 @@
+.links__img{
+    position: absolute;
+    max-width: 70%;
+    z-index: -1;
+    
+    right: 0;
+}
+.links__media{
+    position: relative;
+}

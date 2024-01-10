@@ -1,15 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Foto from "../../assets";
-import { BackgroundBeams } from "../../Components/Social/Index";
+import { socialBack } from "../../assets";
+import "./style.css"
 
-const socialLink = [
-  {
-    ProfilePicture: Foto,
+const LinksToSocialLink = [
+  { 
     linkTo: "https://twitter.com/shaxzod_e",
   },
   {
-    ProfilePicture: Foto,
     linkTo: "https://www.instagram.com/shaxzod5_/",
   },
   {
@@ -17,12 +15,12 @@ const socialLink = [
   },
 ];
 
-const Social = () => {
+const LinksToSocial = () => {
   return (
-    <div>
-      <BackgroundBeams />
-    </div>
+    <section className="links__media">
+      <img className="links__img"src={socialBack} alt="" />
+    </section>
   );
 };
 
-export default Social;
+export default LinksToSocial;

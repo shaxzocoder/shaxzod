@@ -14,7 +14,7 @@ const Home = () => {
           </h2>
           <TypingAnimation />
           <img src={backgroundSvg} alt="" />
-          <p>I have dedicated nearly two years to learning programming. I am from Uzbekistan, and my ultimate goal is to secure a position in a prominent company in the future.(crazy about music)</p>
+          <p>I have dedicated nearly two years to learning programming. I am from Uzbekistan, and my ultimate goal is to secure a position in a prominent company in the future. follow to my social medias:) </p>
           <Link to="/social" className="social__btn oq">
            Hold this
           </Link>

@@ -7,16 +7,18 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <header className="home__wrp">
-    <div className="home">
-        <h2 className="description">
-          <code className="custom"></code>I am just a
-          <code className="custom"></code>
-        </h2>
-        <TypingAnimation />
-        <img src={backgroundSvg} alt="" />
-        <Link to="/social" className="social__btn oq">
-         Hold this
-        </Link>
+    <div className="home__header">
+      <div className="home">
+          <h2 className="description">
+            Hey, I'm Shaxzod<p>.</p>
+          </h2>
+          <TypingAnimation />
+          <img src={backgroundSvg} alt="" />
+          <p>I have dedicated nearly two years to learning programming. I am from Uzbekistan, and my ultimate goal is to secure a position in a prominent company in the future.(crazy about music)</p>
+          <Link to="/social" className="social__btn oq">
+           Hold this
+          </Link>
+      </div>
     </div>
     
     </header>

@@ -1,29 +1,45 @@
-.typinganimation{
-    display: flex;
-    align-items: center;
-    font-size: 5rem;
+.typinganimation__wrp {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-transform: capitalize;
 }
-
+.typinganimation{
+  background: #77a1d3; /* fallback for old browsers */
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+}
+.typinganimation::after {
+    content: '|';
+    width: 5px;
+   
+    height: 100%;
+    position: absolute;
+    background-color: white;
+}
 @media (width < 1024px) {
-    .typinganimation{
-        font-size: 4rem;
-    }    
+  .typinganimation {
+    font-size: 4rem;
+  }
 }
 @media (width < 780px) {
-    .typinganimation{
-        font-size: 3rem;
-    }    
+  .typinganimation {
+    font-size: 3rem;
+  }
 }
 @media (width < 550px) {
-    .typinganimation{
-        font-size: 2.5rem;
-    }    
+  .typinganimation {
+    font-size: 2.5rem;
+  }
 }
 @media (width < 440px) {
-    .typinganimation{
-        font-size: 2rem;
-    }    
+  .typinganimation {
+    font-size: 2rem;
+  }
 }
-
-
-

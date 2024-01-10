@@ -36,7 +36,7 @@ body {
 .main > .nav {
   width: 100%;
 }
-.main > *:not(.nav , .home__wrp , .Ninn) {
+.main > *:not() {
   width: 100%;
   padding: 2rem 0;
 }

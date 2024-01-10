@@ -1,19 +1,31 @@
 .home__wrp{
   width: 100%;
 }
+.home__header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
 .home {
   display: flex;
   flex-direction: column;
   min-height: 70vh;
-  width: 100%;
+  width: 50%;
   padding: 2rem;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
+  gap: 1.5rem;
   & .description {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 800;
+    & p {
+      color: purple;
+    }
   }
-
+  & > p {
+    width: 85%;
+  }
   & .social__btn {
     display: grid;
     place-content: center;
@@ -61,7 +73,9 @@ code.custom {
   color: white;
   text-decoration: none;
 }
-
+.description {
+  display: flex;
+}
 
 
 @media (width < 580px) {

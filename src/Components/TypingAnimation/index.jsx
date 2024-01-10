@@ -10,7 +10,7 @@ const TypingAnimation = () => {
         className="typinganimation"
         sequence={[
           500,
-          "Font-End Developer",
+          "Front-End Developer",
           1000,
           "Back-end Developer",
           1000,

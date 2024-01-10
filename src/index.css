@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Stapel bold";
   src: url(./assets/Fonts/Stapel/Stapel_Bold.otf);
@@ -36,9 +37,9 @@ body {
 .main > .nav {
   width: 100%;
 }
-.main > *:not() {
+.main > * {
   width: 100%;
-  padding: 2rem 0;
+ 
 }
 
 h1 {

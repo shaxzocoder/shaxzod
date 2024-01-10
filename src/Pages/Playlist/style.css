@@ -1,0 +1,24 @@
+.img {
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 12rem;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    object-fit: cover;
+    opacity: 0;
+    background-color: rgb(212 212 212);
+}
+.imgdiv{
+    position: relative;
+    overflow: hidden;
+}
+.playlist{
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    height: 90vh;
+    width: 100%;
+}

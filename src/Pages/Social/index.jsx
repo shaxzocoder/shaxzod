@@ -30,7 +30,7 @@ const LinksToSocial = () => {
   return (
     <section className="links__media">
       {LinksToSocialLink.map(({linkTo , id, socialName , iconsSocial}) => (
-        <div className="linkwrp" key={id}>
+        <div className="" key={id}>
           <a target="_blank" href={linkTo}>{socialName}</a>
       </div>
       ))}

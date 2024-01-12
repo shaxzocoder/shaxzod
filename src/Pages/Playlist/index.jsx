@@ -1,8 +1,10 @@
 import React, { useRef } from "react";
-import "./style.css"
+import "./style.css";
 import { useAnimate } from "framer-motion";
 import { albumCovers } from "../../assets/Albumcover/Index";
-import PlaylistNoThree from './../../Components/Spotify/Spotfy';
+import PlaylistNoThree from "./../../Components/Spotify/Spotfy";
+
+
 
 const Playlist = () => {
   return (
@@ -13,6 +15,7 @@ const Playlist = () => {
     >
       <section className="playlist">
         <PlaylistNoThree />
+        
       </section>
     </MouseImageTrail>
   );
@@ -38,7 +41,7 @@ const MouseImageTrail = ({
   const handleMouseMove = (e) => {
     const { clientX, clientY } = e;
 
-    const distance =  calculateDistance(
+    const distance = calculateDistance(
       clientX,
       clientY,
       lastRenderPosition.current.x,

@@ -14,16 +14,34 @@ nav {
   left: 0;
 }
 
+.navimg__wrp{
+  transition: 150ms ease;
+}
+
+.navimg__wrp:hover {
+  transition: 350ms ease-in-out;
+  transform: scale(1.1);
+}
+
+.icon__nav{
+  font-size: medium;
+}
 .link__wrp {
   color: var(--white);
   display: flex;
   gap: 1.5rem;
 }
 .link__itself {
+  text-align: end;
   text-transform: capitalize;
   text-decoration: none;
   color: var(--white);
 }
+.link__itself:hover{
+  color: #61d869;
+}
+
+
 @media (width < 480px) {
   .link__wrp .link__itself {
     font-size: 0.8rem;

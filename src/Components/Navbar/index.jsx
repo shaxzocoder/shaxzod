@@ -2,11 +2,12 @@ import React from "react";
 import "./style.css";
 import Foto from "../../assets";
 import { Link } from "react-router-dom";
+import { IoHeadsetSharp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
     <nav className="nav">
-      <Link to="/">
+      <Link to="/" className="navimg__wrp">
         <img className="foto" width={50} height={50} src={Foto} alt="" />
       </Link>
 
@@ -15,10 +16,10 @@ const Navbar = () => {
           speaking
         </Link>
         <Link className="link__itself" to="/links">
-          Links
+          Links 
         </Link>
         <Link className="link__itself" to="/playlists">
-          Playlist
+          Playlist <IoHeadsetSharp className="icon__nav"/>
         </Link>
       </div>
     </nav>

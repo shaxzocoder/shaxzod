@@ -20,7 +20,6 @@ const Home = () => {
           </Link>
       </div>
     </div>
-    
     </header>
   );
 };

@@ -19,4 +19,4 @@ import music18 from "./thriller.jpg"
 
 
 
-export const albumCovers = [music4, music2, music3, music1, music5, music6, music7, music8, music9, music10, music11, music12, music12, music13, music14, music15, music16, music17, music18]
+export const albumCovers = [music4, music2, music3, music1, music5, music6, music7, music8, music9, music10, music11, music12, music13, music14, music15, music16, music17, music18]

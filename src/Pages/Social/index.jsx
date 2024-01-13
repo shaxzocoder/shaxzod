@@ -1,40 +1,39 @@
 import React from "react";
 import { socialBack } from "../../assets";
-import "./style.css"
-import { FaXTwitter  } from "react-icons/fa6";
-import {FaGithub ,FaInstagram } from "react-icons/fa"
+import "./style.css";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 let id = 1;
 const LinksToSocialLink = [
   {
-    id: id++, 
+    id: id++,
     linkTo: "https://twitter.com/shaxzod_e",
     socialName: "X (twitter)",
-    iconsSocial:"FaXTwitter"
   },
   {
-    id: id++, 
+    id: id++,
     linkTo: "https://www.instagram.com/shaxzod5_/",
     socialName: "instagram",
-    iconsSocial:""
   },
   {
-    id: id++, 
+    id: id++,
     linkTo: "https://github.com/shaxzocoder",
     socialName: "Github",
-    iconsSocial:""
   },
 ];
 
 const LinksToSocial = () => {
   return (
     <section className="links__media">
-      {LinksToSocialLink.map(({linkTo , id, socialName , iconsSocial}) => (
-        <div className="" key={id}>
-          <a target="_blank" href={linkTo}>{socialName}</a>
-      </div>
+      {LinksToSocialLink.map(({ linkTo, id, socialName }) => (
+        <div className="linkwrp" key={id}>
+          <a className="linnk" target="_blank" href={linkTo}>
+            {socialName}
+            <FaExternalLinkAlt />
+          </a>
+        </div>
       ))}
-      <img className="links__img"src={socialBack} alt="" />
+      <img className="links__img" src={socialBack} alt="" />
     </section>
   );
 };

@@ -12,9 +12,9 @@ const Navbar = () => {
       </Link>
 
       <div className="link__wrp">
-        <Link className="link__itself" to="/speaking">
+        <p className="link__itself pi" to="/speaking" disbaled>
           speaking
-        </Link>
+        </p>
         <Link className="link__itself" to="/links">
           Links 
         </Link>

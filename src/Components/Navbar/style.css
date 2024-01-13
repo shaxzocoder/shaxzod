@@ -12,6 +12,13 @@ nav {
   backdrop-filter: blur(20px);
   top: 0;
   left: 0;
+  z-index: 3;
+}
+.pi{
+  cursor: not-allowed;
+}
+.pi:hover {
+  color: grey !important;
 }
 
 .navimg__wrp{

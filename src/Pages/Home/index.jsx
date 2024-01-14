@@ -19,7 +19,7 @@ const Home = () => {
           <p>
             {sozlar}
           </p>
-          <Link to="/links" className="social__btn oq">
+          <Link type="button" to="/links" className="social__btn oq">
            Hold this
           </Link>
       </div>

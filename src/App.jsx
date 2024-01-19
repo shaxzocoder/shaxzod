@@ -7,6 +7,7 @@ import Speaking from "./Pages/Speaking/index";
 const Playlist = lazy(() => import("./Pages/Playlist/index"));
 import Home from "./Pages/Home/index";
 import LinksToSocial from "./Pages/Social/index";
+import Article from "./Pages/Articles";
 
 const titleMap = [
   { path: "/", title: "Shaxzod - Blog" },
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/speaking" element={<Speaking />} />
         <Route path="/links" element={<LinksToSocial />} />
         <Route path="/playlists" element={<Playlist />} />
+        <Route path="/articles" element={<Article/>} />
       </Routes>
     </div>
   );

@@ -39,6 +39,9 @@ nav {
   gap: 1.5rem;
 }
 .link__itself {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
   text-align: end;
   text-transform: capitalize;
   text-decoration: none;
@@ -48,6 +51,47 @@ nav {
   color: #61d869;
 }
 
+.more__nav{
+  position: relative;
+  & .icons__nav{
+    font-size: 1.5rem;
+    transition: 350ms;
+    animation: changeColor 9s infinite ease-in-out;
+  }
+  &:hover .icons__nav{
+    color: #61d869;
+    transform: rotate(180deg);
+  }
+  &:hover .dropdown__nav{
+    display: block;
+  }
+}
+
+
+.dropdown__nav{
+  top: 50px;
+  right: 5px;
+  display: none;
+  width: 150px;
+  position: absolute;
+ backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: .1rem;
+  & > .dropdown__text{
+    margin: .5rem;
+    padding: .3rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 10px;
+    transition: 350ms  ease;
+    color: var(--white);
+    &:hover{
+      background-color: rgb(59, 57, 57);
+    }
+  }
+}
 
 @media (width < 480px) {
   .link__wrp .link__itself {

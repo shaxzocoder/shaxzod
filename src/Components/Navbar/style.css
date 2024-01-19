@@ -14,14 +14,14 @@ nav {
   left: 0;
   z-index: 3;
 }
-.pi{
+.pi {
   cursor: not-allowed;
 }
 .pi:hover {
   color: grey !important;
 }
 
-.navimg__wrp{
+.navimg__wrp {
   transition: 150ms ease;
 }
 
@@ -30,7 +30,7 @@ nav {
   transform: scale(1.1);
 }
 
-.icon__nav{
+.icon__nav {
   font-size: medium;
 }
 .link__wrp {
@@ -47,47 +47,46 @@ nav {
   text-decoration: none;
   color: var(--white);
 }
-.link__itself:hover{
+.link__itself:hover {
   color: #61d869;
 }
 
-.more__nav{
+.more__nav {
   position: relative;
-  & .icons__nav{
+  & .icons__nav {
     font-size: 1.5rem;
     transition: 350ms;
     animation: changeColor 9s infinite ease-in-out;
   }
-  &:hover .icons__nav{
+  &:hover .icons__nav {
     color: #61d869;
     transform: rotate(180deg);
   }
-  &:hover .dropdown__nav{
+  &:hover .dropdown__nav {
     display: block;
   }
 }
 
-
-.dropdown__nav{
+.dropdown__nav {
   top: 50px;
   right: 5px;
   display: none;
   width: 150px;
   position: absolute;
- backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
   border-radius: 20px;
   border: 1px solid white;
-  padding: .1rem;
-  & > .dropdown__text{
-    margin: .5rem;
-    padding: .3rem;
+  padding: 0.1rem;
+  & > .dropdown__text {
+    margin: 0.5rem;
+    padding: 0.3rem;
     display: flex;
     justify-content: left;
     align-items: center;
     border-radius: 10px;
-    transition: 350ms  ease;
+    transition: 350ms ease;
     color: var(--white);
-    &:hover{
+    &:hover {
       background-color: rgb(59, 57, 57);
     }
   }

@@ -3,6 +3,7 @@ import "./style.css";
 import TypingAnimation from "../../Components/TypingAnimation";
 import { backgroundSvg } from "../../assets";
 import { Link } from 'react-router-dom';
+import AlbumAim from "../../Components/AlbumHome";
 
 const sozlar = `I have dedicated nearly two years to learning programming. I am from Uzbekistan, and my ultimate goal is to secure a position in a prominent company in the future. follow to my social medias:)`
 
@@ -24,6 +25,7 @@ const Home = () => {
           </Link>
       </div>
     </div>
+    <AlbumAim/>
     </header>
   );
 };

@@ -21,14 +21,14 @@ const Navbar = () => {
         </Link>
         <p className="link__itself more__nav">
           More <MdOutlineKeyboardArrowDown className="icons__nav" />
-          <div className="hidden dropdown__nav">
+          <span className="hidden dropdown__nav">
             <Link className="dropdown__text" to="/speaking">
               speaking
             </Link>
             <Link className="dropdown__text" to="/articles">
               Articles
             </Link>
-          </div>
+          </span>
         </p>
       </div>
     </nav>

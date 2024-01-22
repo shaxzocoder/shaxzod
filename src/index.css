@@ -15,6 +15,7 @@
   --smooth-transition: 350ms;
   --fast-transition: 100ms;
   --font-sb: "Stapel bold";
+  --out: 1px solid coral;
 }
 * {
   margin: 0;

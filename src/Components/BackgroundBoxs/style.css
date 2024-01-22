@@ -1,0 +1,54 @@
+/* h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center */
+
+.background__box {
+  min-height: 20rem;
+  width: 100%;
+  background-color: var(--primary-color);
+  background-color: var(--primary-color);
+  background-image: linear-gradient(#ffffff2c 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff2d 1px, transparent 1px);
+  background-size: 35px 35px;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item__box {
+  position: absolute;
+  pointer-events: none;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  mask-image: radial-gradient(ellipse at center, transparent 20%, black);
+  -webkkit-mask-image: radial-gradient(
+    ellipse at center,
+    transparent 20%,
+    black
+  );
+}
+
+.p__box {
+  font-size: 2rem;
+  position: relative;
+  z-index: 20;
+  -webkit-background-clip: text;
+  padding-top: 2rem; /* 32px */
+  padding-bottom: 2rem; /* 32px */
+  color: transparent;
+  background-color: #a0aec0; /* Equivalent to bg-gray-500 in Tailwind CSS */
+  color: #ffffff; /* Equivalent to text-white in Tailwind CSS */
+  padding: 1rem; /* Equivalent to p-4 in Tailwind CSS */
+  background-image: linear-gradient(to top, #eee, transparent);
+}
+.bottom__effect {
+  background: linear-gradient(
+    90deg,
+    rgba(56, 189, 248, 0),
+    #0ea5e9 32.29%,
+    rgba(236, 72, 153, 0.3) 67.19%,
+    rgba(236, 72, 153, 0)
+  );
+}

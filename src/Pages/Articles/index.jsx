@@ -1,9 +1,10 @@
 import React from 'react'
+import { GridBackgroundDemo } from '../../Components/BackgroundBoxs'
 
 const Article  = () => {
   return (
     <section>
-        <h1>article page</h1>
+        <GridBackgroundDemo/>
     </section>
     )
 }

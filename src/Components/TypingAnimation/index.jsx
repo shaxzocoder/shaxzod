@@ -16,6 +16,8 @@ const TypingAnimation = () => {
           1000,
           "Graphics Desinger",
           1000,
+          "UI Designer",
+          1000,
         ]}
         speed={10}
         repeat={Infinity}

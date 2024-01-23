@@ -25,6 +25,7 @@ const Home = () => {
           </Link>
       </div>
     </div>
+    <AlbumAim/>
     </header>
   );
 };

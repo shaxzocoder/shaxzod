@@ -74,6 +74,7 @@ nav {
   width: 150px;
   position: absolute;
   backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
   border-radius: 20px;
   border: 1px solid white;
   padding: 0.1rem;

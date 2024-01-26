@@ -73,11 +73,13 @@ nav {
   display: none;
   width: 150px;
   position: absolute;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+ background-color: rgba(9, 9, 9, 0.76);
   border-radius: 20px;
   border: 1px solid white;
   padding: 0.1rem;
+  & > * {
+    text-decoration: none;
+  }
   & > .dropdown__text {
     margin: 0.5rem;
     padding: 0.3rem;

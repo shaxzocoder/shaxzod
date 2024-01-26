@@ -28,15 +28,14 @@ const App = () => {
   }, [curLoc]);
   return (
     <div className="main">
-      <h1>out of control</h1>
-      {/* <Navbar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/speaking" element={<Speaking />} />
         <Route path="/links" element={<LinksToSocial />} />
         <Route path="/playlists" element={<Playlist />} />
         <Route path="/articles" element={<Article/>} />
-      </Routes> */}
+      </Routes>
     </div>
   );
 };

@@ -9,7 +9,7 @@ nav {
   height: 13vh;
   position: sticky;
   border-bottom: 1px solid var(--unique);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px) saturate(1.7);
   top: 0;
   left: 0;
   z-index: 3;

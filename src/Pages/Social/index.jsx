@@ -12,7 +12,7 @@ const LinksToSocialLink = [
   },
   {
     id: id++,
-    linkTo: "https://www.instagram.com/shaxzod5_/",
+    linkTo: "https://www.instagram.com/shaxzodd_e/",
     socialName: "instagram",
   },
   {

@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link className="link__itself" to="/links">
           Links
         </Link>
-        <Link className="link__itself" to="/playlists">
+        <Link className="link__itself" >
           Playlist <IoHeadsetSharp className="icon__nav" />
         </Link>
         <p className="link__itself more__nav">

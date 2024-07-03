@@ -47,9 +47,17 @@ nav {
   text-decoration: none;
   color: var(--white);
 }
-.link__itself:hover {
+:nth-child(2 of .link__itself){
+  cursor: not-allowed;
+  &:hover{
+    color: gray;
+  }
+}
+
+.link__itself:hover{
   color: #61d869;
 }
+
 
 .more__nav {
   position: relative;
